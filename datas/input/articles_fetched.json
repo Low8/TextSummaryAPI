@@ -1,0 +1,32 @@
+{
+    "status": "ok",
+    "totalResults": 2,
+    "articles": [
+        {
+            "source": {
+                "id": "australian-financial-review",
+                "name": "Australian Financial Review"
+            },
+            "author": "Natallie Rocha",
+            "title": "Meet the new billionaires of the AI boom",
+            "description": "Just like past technology bonanzas, the latest frenzy has produced a group of billionaires \u2013 at least on paper \u2013 from smaller start-ups.",
+            "url": "http://www.afr.com/technology/meet-the-new-billionaires-of-the-ai-boom-20251231-p5nqy6",
+            "urlToImage": "https://static.ffx.io/images/$zoom_0.4328%2C$multiply_2%2C$ratio_1.777778%2C$width_1059%2C$x_32%2C$y_185/t_crop_custom/c_scale%2Cw_800%2Cq_88%2Cf_jpg/t_afr_no_label_no_age_social_wm/9a8d22c40b210c1b66e3e38ddfcdd484133a69e6",
+            "publishedAt": "2026-01-12T18:00:00Z",
+            "content": "The artificial intelligence boom has turned high-profile billionaires such as Jensen Huang, CEO of chipmaker Nvidia, and Sam Altman, CEO of ChatGPT maker OpenAI, into even richer billionaires.\r\nIt ha\u2026 [+309 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "UK to bring into force law to tackle Grok AI deepfakes this week",
+            "description": "The technology secretary said it would be illegal for companies to supply the tools designed to make them.",
+            "url": "https://www.bbc.co.uk/news/articles/cq845glnvl1o",
+            "urlToImage": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/b181/live/401595e0-efde-11f0-be9a-5d00009628a6.jpg",
+            "publishedAt": "2026-01-12T17:52:27.5201181Z",
+            "content": "It comes hours after Ofcom announced it was launching an investigation into X over \"deeply concerning reports\" about Grok altering images of people.\r\nIn a statement, Kendall urged the regulator not t\u2026 [+974 chars]"
+        }
+    ]
+}
