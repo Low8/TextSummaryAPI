@@ -8,19 +8,18 @@ API_KEY = "92f835d89dd44cc9b70ebae91db2554f"
 NEWS_API_URL = "https://newsapi.org/v2/top-headlines"
 articles_path = os.path.join("datas", "input", "articles_fetched.json")
 
-
-def fetch_articles():
-    params = {
+# Filter for articles to fetch
+PARAMS = {
         "from": "2026-01-01",
         "country": "us",
         "category": "technology",
         "apiKey": API_KEY
     }
 
-    response = requests.get(NEWS_API_URL, params=params)
+
+def fetch_articles():
+    response = requests.get(NEWS_API_URL, params=PARAMS)
     response.raise_for_status()
-
-
 
     return response.json().get("articles", [])
 
