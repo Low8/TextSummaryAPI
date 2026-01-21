@@ -6,11 +6,10 @@ textSummarize = FastAPI()
 class ArticlesInput(BaseModel):
     title: str | None
     content: str
-    utl: str | None
+    url: str | None
     author: str | None
-
-
-
+    summary: str | None = None
+    id: int | None = None
 
 
 @textSummarize.post("/article")
@@ -20,7 +19,7 @@ def summarize_article(article: ArticlesInput):
         - id
         - title
         - content
-        - summarize
+        - summary
         - url
         - author
     """
@@ -29,7 +28,7 @@ def summarize_article(article: ArticlesInput):
         "title": article.title or "Unknown",
         "url": article.url or "Unknown",
         "author": article.author or "Unknown",
-        "summarize": article.content[:100]
+        "summary": "this is a summary"
     })
 
     return article_with_summarize

@@ -8,4 +8,8 @@ json_path = os.path.join("datas", "input", "articles_fetched.json")
 with open(json_path, "r", encoding="utf-8") as f:
     articles = json.load(f)
 
-print(articles[0])
+response = requests.post(url, json=articles[0])
+
+data = response.json()
+
+print(data["summary"])
